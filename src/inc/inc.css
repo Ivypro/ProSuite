@@ -1,0 +1,72 @@
+
+.inc-box {
+  position: fixed;
+  bottom: 0px;
+  height: 53px;
+  width: 100vw;
+  border-top: solid 1px darkgrey;
+  background: #585858;
+}
+
+.inc-box-out {
+  transition: .5s;
+  bottom: -54px;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,700');
+
+.ivypro-text {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  font-size: 30px;
+}
+
+.eng-text {
+  animation: text1 20s;
+  animation-iteration-count: infinite;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 100;
+  font-size: 30px;
+}
+@keyframes text1 {
+    0% {opacity: 0;}
+    2.5% {opacity: 1;}
+    47.5% {opacity: 1;}
+    50% {opacity: 0;}
+    100% {opacity: 0;}
+}
+
+.eng-text2 {
+  animation: text2 20s;
+  animation-iteration-count: infinite;
+  position: relative;
+  left: -149.5px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 100;
+  font-size: 30px;
+}
+@keyframes text2 {
+  0% {opacity: 0;}
+  50% {opacity: 0;}
+  52.5% {opacity: 1;}
+  97.5% {opacity: 1;}
+  100% {opacity: 0;}
+}
+
+.brand-box {
+  position: relative;
+  width: 250px;
+  color: white;
+  top: 8px;
+  left: 3px;
+  margin: 0 auto;
+  cursor: pointer;
+}
+
+.x-inc {
+  position: absolute;
+  color: white;
+  right: 18px;
+  top: 17.5px;
+  cursor: pointer;
+}
