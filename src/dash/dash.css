@@ -42,7 +42,12 @@ width: 284px;
               0 4px 15px 0 rgba(0,0,0,0.19);
 }
 
+.hold-icon {
+  transition: .5s;
+}
+
 .dash-brand-icon {
+transition: .5s;
   display: inline-block !important;
   vertical-align: top;
     text-align: center;
@@ -78,6 +83,36 @@ width: 284px;
               0 4px 10px 0 rgba(0,0,0,0.14);
 }
 
+.l-chart {
+  position: absolute;
+  top: 50px;
+  left: 6px;
+  width: 260px;
+}
+
+.l-chart-2 {
+  position: absolute;
+  left: 0px;
+  width: 250px;
+}
+
+.chart2-house {
+  position: absolute;
+    top: 204px;
+    left: 11px;
+  background-color: rgb(55,55,55);
+  border: solid 2px rgba(250,250,250,0.2);
+  border-radius: 5px;
+  width: 254px;
+  height: 300px;
+}
+
+.c-grey {
+  color: lightgrey;
+  font-size: .7rem;
+  cursor: pointer;
+}
+
 @import url('https://fonts.googleapis.com/css?family=Roboto:100,300,500');
 @import url('https://fonts.googleapis.com/css?family=Prompt:300,400,500,600,700');
 @import url('https://fonts.googleapis.com/css?family=Raleway:400,500,600');
@@ -90,6 +125,7 @@ width: 284px;
 }
 
 .mid-brand {
+  transition: .5s;
   font-family: 'Orbitron', sans-serif;
   font-weight: 500;
 }
@@ -105,6 +141,25 @@ width: 284px;
   /* top: -1px; W.ivyicon*/
   top: 0.5px;
   left: 0.4px;
+  cursor: pointer;
+  color: white;
+}
+
+.rel-icon:hover {
+  color: lightgrey;
+}
+
+.rel-icon-shift {
+  display: none;
+  position: relative;
+  top: -1.5px;
+  left: -2px;
+  transform: rotate(90deg);
+  cursor: pointer;
+    color: white;
+}
+.rel-icon-shift:hover {
+  color: lightgrey;
 }
 
 .left-panel-box {
@@ -145,6 +200,32 @@ width: 284px;
   background-color: rgba(54,54,54,0.8);
   box-shadow: 0 3px 5px 0 rgba(0,0,0,0.2),
               0 4px 10px 0 rgba(0,0,0,0.19);
+}
+
+.left-panel-content {
+  transition: .5s;
+}
+
+.slide1-secA {
+  animation: fade-in .5s;
+  transition: .5s;
+}
+
+.slide1-secB {
+  display: none;
+  transition: .5s;
+  animation: fade-in .5s;
+}
+
+.ri-s1 {
+  transition: .5s;
+  animation: fade-in .5s;
+}
+
+.ris-s1 {
+  display: none;
+  transition: .5s;
+  animation: fade-in .5s;
 }
 
 .p-back {

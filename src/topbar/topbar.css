@@ -33,15 +33,20 @@
 .iconbrand {
   position: absolute;
   margin-left: 5.5%;
+  width: calc(160px);
+  top: 2px;
+  height: calc(100% - 4px);
   text-align: center;
   transition: .25s;
+  background-color: white;
 }
 
 
 .icon-inline {
   position: relative;
-  margin-top: 1.5px;
-  margin-left: 61px;
+  margin-top: .5px;
+  /* margin-left: 21px; */
+  margin-left: 4px;
 }
 
 .rel-suite {
@@ -93,11 +98,13 @@ background-color: rgb(230,230,230);
 
 .underline {
   position: absolute;
-  left: calc(5.5% + 212px);
+  left: calc(5.5% + 210px);
   top: 56px;
   /* width: 119px; Companies. */
-  width: 80px;
+  width: 90px;
     height: 1.5px;
+    transition: .8s;
+    /* background-color: black; */
     background-image: linear-gradient(to right, rgba(255,255,255,0.0), rgba(0,128,128,0.5), rgba(255,255,255,0.0));
 }
 
@@ -226,4 +233,39 @@ background-color: rgb(230,230,230);
 
 #enter-logos {
   display: none;
+}
+
+.profile-house {
+  position: absolute;
+  right: 40px;
+  width: 250px;
+  height: 100%;
+  font-family: Roboto;
+  font-size: .9rem;
+  color: rgb(150,150,150);
+}
+
+.profile-sn {
+  position: relative;
+  top: 20px;
+  right: 55px;
+  text-align: right;
+  cursor: pointer;
+}
+
+.profile-circ {
+  position: absolute;
+  border-radius: 22px;
+  top: 10px;
+  right: 10px;
+  width: 34px;
+  height: 34px;
+  background-color: rgb(190,190,190);
+  cursor: pointer;
+}
+
+.profile-img {
+  position: relative;
+  top: 3px;
+  width: 28px;
 }

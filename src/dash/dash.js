@@ -14,7 +14,12 @@ import facebook from '../assets/facebook.png';
 import uber from '../assets/uber.jpg';
 import google from '../assets/google.png';
 
+import chart1 from '../assets/chart1.png';
+import chart2 from '../assets/chart2.png';
+
 import titleximg from '../assets/i-large.png';
+
+declare var $
 
 class dash extends Component {
 
@@ -50,6 +55,12 @@ class dash extends Component {
     var x = document.getElementsByClassName("main-content");
     var i; for (i = 0; i < x.length; i++)
     { x[i].className += " main-content-reset"; };
+    $('.ri-s1, .slide1-secA').css({"opacity": "0"});
+    setTimeout(function(){
+    $('.ri-s1, .slide1-secA').css({"opacity": "1"});
+    $('.ri-s1, .slide1-secA').hide();
+    $('.ris-s1, .slide1-secB').show();
+     }, 500);
 }, 1500);
   }
 
@@ -62,6 +73,34 @@ class dash extends Component {
 
   clearMouse() {
     clearTimeout(this.timer);
+  }
+
+  // ishift() {
+  // $('.ri-s1, .slide1-secA').css({"opacity": "0"});
+  //   setTimeout(function(){
+  //     $('.ri-s1, .slide1-secA').hide();
+  //     // Hide Orginal
+  //     $('.ris-s1, .slide1-secB').show();
+  //     $('.ris-s1, .slide1-secA').css({"opacity": "1"});
+  //   }, 500);
+  // }
+
+  ishift() {
+  $('.ri-s1, .slide1-secA').css({"opacity": "0"});
+  setTimeout(function(){
+  $('.ri-s1, .slide1-secA').css({"opacity": "1"});
+  $('.ri-s1, .slide1-secA').hide();
+  $('.ris-s1, .slide1-secB').show();
+   }, 500);
+  }
+
+  ishiftb() {
+  $('.ris-s1, .slide1-secB').css({"opacity": "0"});
+  setTimeout(function(){
+  $('.ris-s1, .slide1-secB').css({"opacity": "1"});
+  $('.ris-s1, .slide1-secB').hide();
+  $('.ri-s1, .slide1-secA').show();
+   }, 500);
   }
 
 
@@ -81,15 +120,28 @@ class dash extends Component {
   </div>
 
   <div class="dash-brand-icon">
-  <div class="rel-icon">
-  <i class="material-icons white">insert_chart</i>
+    <div class="hold-icon">
+
+  <div class="rel-icon ri-s1" onClick={this.ishift}>
+  <i class="material-icons">insert_chart</i>
   </div>
+
+  <div class="rel-icon-shift ris-s1" onClick={this.ishiftb}>
+  <i class="material-icons">insert_chart</i>
+  </div>
+
+</div>
   </div>
 
   <div class="left-panel-box">
 <div class="left-panel-box-link"></div>
 
-<div class="left-panel-panel" id="info">
+<div class="left-panel-panel color-info">
+  <div class="left-panel-content">
+
+
+    <div class="slide1-secA">
+
   <div class="p-back"></div>
   <h3 class="cut-topmargin">C O N C E P T</h3>
     Purchase equity in a company listed on the market
@@ -113,9 +165,29 @@ class dash extends Component {
     <font class="created">Created in <font class="heavy">React</font> by</font><font class="created-i"> Ivypro Inc.</font>
     <br/><font class="copy">Copyright 2020</font>
     {/* Established 2020 */}
+</div>
 
 </div>
+<div class="slide1-secB">
+
+<div class="p-back"></div>
+<h3 class="cut-topmargin-2">A N A L Y T I C S</h3>
+  <img class="l-chart" src={chart1} />
+  <h3 class="cut-topmargin-3">Opportunity (Monthly) &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <font class="c-grey">[View All]</font> </h3>
+  <div class="chart2-house">
+  <img class="l-chart-2 " src={chart2} />
+  </div>
+
 </div>
+
+
+</div>
+
+
+
+
+</div>
+
   </div>
   </div>
 

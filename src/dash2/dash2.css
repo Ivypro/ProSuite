@@ -1,0 +1,213 @@
+
+
+.dash-header {
+  position: relative;
+  margin-top: -4px;
+  /* background-color: #F5F5F5; */
+  min-height: calc(100vh - 56px);
+  text-align: left;
+  /* align-items: center;  Center-H */
+  /* justify-content: center; Center-V */
+  color: black;
+}
+
+.panel {
+position: absolute;
+  width: 100%;
+  height: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  background-color: #f0f0f0;
+}
+
+.left-panel {
+  display: inline-block;
+  vertical-align: top;
+position: relative;
+margin-left: 1.25%;
+width: 284px;
+  height: 100%;
+}
+
+.dash-brand {
+  display: inline-block;
+  width: 270px;
+  height: 41px;
+  margin-top: 33px;
+  margin-left: 3.3%;
+  padding-top: 12px;
+  font-size: 22px;
+  color: rgb(70,70,70);
+  -webkit-font-smoothing: antialiased;
+  background-color: rgba(252,252,252,.8);
+  box-shadow: 0 4px 10px 0 rgba(0,0,0,0.2),
+              0 4px 15px 0 rgba(0,0,0,0.19);
+}
+
+.hold-icon {
+  transition: .5s;
+}
+
+.dash-brand-icon {
+  transition: .5s;
+  display: inline-block !important;
+  vertical-align: top;
+    text-align: center;
+  width: 36px;
+  height: 29px;
+  margin-top: 20px;
+    margin-left: 16px;
+  padding-top: 3px;
+  cursor: default;
+  border-radius: 10px;
+  font-size: 19px;
+  color: rgb(190,200,200);
+  -webkit-font-smoothing: antialiased;
+  background-color: rgba(70,70,70,.8);
+  box-shadow: 0 3px 5px 0 rgba(100,100,100,0.2),
+              0 4px 10px 0 rgba(100,100,100,0.19);
+}
+
+.dash-brand-tag {
+  display: inline-block !important;
+  vertical-align: top;
+    text-align: center;
+  width: 232px;
+  height: 28px;
+  margin-top: 20px;
+  padding-top: 4px;
+  cursor: default;
+  font-size: 19px;
+  color: rgb(240,240,240);
+  -webkit-font-smoothing: antialiased;
+  background-color: rgba(90,90,90,.8);
+  box-shadow: 0 3px 5px 0 rgba(0,0,0,0.15),
+              0 4px 10px 0 rgba(0,0,0,0.14);
+}
+
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,300,500');
+@import url('https://fonts.googleapis.com/css?family=Prompt:300,400,500,600,700');
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,500,600');
+@import url('https://fonts.googleapis.com/css?family=Cinzel:400,700');
+@import url('https://fonts.googleapis.com/css?family=Orbitron:400,500,700');
+
+.thick-brand {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+}
+
+.mid-brand {
+  font-family: 'Orbitron', sans-serif;
+  font-weight: 500;
+}
+
+.thin-brand {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 100;
+}
+
+.rel-icon {
+  position: relative;
+  /* top: -5px; */
+  /* top: -1px; W.ivyicon*/
+  top: 0.5px;
+  left: 0.4px;
+}
+
+.left-panel-box {
+  width: 100%;
+  height: calc(100% - 163px);
+}
+
+.left-panel-box-link {
+  /* width: calc(100% - 52px); */
+  width: calc(100% - 82px);
+  height: 18px;
+  margin-left: 15px;
+  background-color: lightgrey;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Raleway:300,400,500,600');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800');
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700');
+
+.left-panel-panel {
+  position: relative;
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 1.42857;
+  /* color: rgba(0,0,0,0.87); */
+  color: rgba(250,250,250,0.95);
+  -webkit-font-smoothing: antialiased;
+  padding: 15px;
+  width: calc(100% - 34px);
+  height: calc(100% - 23px);
+  max-height: 485px;
+  border: solid 2px rgba(200,200,200,0.4);
+  border-radius: 5px;
+  white-space: normal;
+  overflow: scroll;
+  transition: .8s;
+  background-color: rgba(54,54,54,0.8);
+  box-shadow: 0 3px 5px 0 rgba(0,0,0,0.2),
+              0 4px 10px 0 rgba(0,0,0,0.19);
+}
+
+.left-panel-content {
+  transition: .5s;
+}
+
+.p-back {
+  position: absolute;
+  border-radius: 2px;
+  top: 15px;
+  width: 75px;
+  height: 20px;
+  background-image: linear-gradient(to right, rgba(40,30,0,0.01) , rgba(40,30,0,0.0));
+}
+
+.back-2 {
+  top: 109px;
+  width: 120px;
+}
+.back-3 {
+  top: 203px;
+    width: 80px;
+}
+.back-4 {
+  top: 297px;
+  width: 65px;
+}
+
+.cr-align-right {
+  margin-top: 18px;
+  text-align: right;
+}
+
+.created {
+  font-size: 13px;
+  font-weight: 400;
+}
+
+.heavy {
+  font-weight: 500;
+}
+
+.created-i {
+  font-family: 'Lato', sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  -webkit-font-smoothing: subpixel-antialiased;
+    /* color: rgba(10,158,118,0.77); Orig */
+    /* color: rgba(20,155,50,0.95); Greenish */
+    color: rgba(50,178,178);
+  margin-left: 2px;
+  margin-right: 10px;
+}
+
+.copy {
+  font-size: 11px;
+  font-weight: 400;
+  margin-right: 35px;
+}
