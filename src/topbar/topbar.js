@@ -132,7 +132,9 @@ class topbar extends Component {
 
        }
 
-
+showMenu() {
+$('.box-menu').toggleClass('hidden');
+}
 
 
   render() {
@@ -179,6 +181,7 @@ class topbar extends Component {
 {/* (pitchdeck) Dark grey modal for multi-tab content */}
              </div>
 
+<font onClick={this.showMenu}>
              <div class="profile-house">
                <div class="profile-sn">professor-131</div>
 
@@ -186,6 +189,9 @@ class topbar extends Component {
              <img class="profile-img" src={profile} />
            </div>
              </div>
+             </font>
+
+             {/* HIGH ANIMATION: REPLACE TOGGLE WITH CLONE, AND ONEWAY OUTER  */}
 
 <div class="underline-top"></div>
 <div class="underline"></div>
@@ -206,7 +212,20 @@ class topbar extends Component {
                               </span>
            <span class="none">Cofounder Remote</span>
            <span class="none"> Loader: Charcoal Background on Large-Logo - Fadein </span>
+
         </div>
+
+<div class="box-menu hidden" onClick={this.showMenu}>
+  <hr class="divi" />
+<div class="divi-sel">Profile</div>
+<hr class="divi" />
+<div class="divi-sel">Settings</div>
+<hr class="divi" />
+<div class="divi-sel">Accounts</div>
+<hr class="divi" />
+<div class="divi-sel">Log Out</div>
+<hr class="divi" />
+</div>
 
         {/* ------------------- TOP MODAL ------------------ */}
         {/* REVIEW THIN HEIGHT = DOWN ARROW REVIEW */}
@@ -232,6 +251,8 @@ class topbar extends Component {
         </div>
 
                 </div>
+
+
 
       </div>
     );

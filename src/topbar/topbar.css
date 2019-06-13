@@ -269,3 +269,43 @@ background-color: rgb(230,230,230);
   top: 3px;
   width: 28px;
 }
+
+
+.box-menu {
+  background-color: white;
+  position: fixed;
+  border: solid 1.2px rgb(230,230,230);
+  border-top: solid 2px rgb(230,230,230);
+  border-radius: 1px;
+  width: 220px;
+  height: 161px;
+  top: 64px;
+  right: 50px;
+  font-family: Roboto;
+  animation: fade-in .5s;
+  -webkit-font-smoothing: antialiased;
+  color: grey;
+  z-index: 1010;
+  box-shadow: 0 3px 5px 0 rgba(100,100,100,0.4),
+              0 4px 10px 0 rgba(100,100,100,0.38);
+}
+
+.box-menu.hidden {
+  display: none;
+  top: -200px;
+}
+
+.divi {
+  border-top: 0px solid lightgrey;
+  border-color: whitesmoke;
+  border-left: 0px;
+  width: 90%;
+}
+
+.divi-sel:hover {
+  background-color: lightgrey;
+  color: white;
+  width: 90%;
+  margin: 0 auto;
+  cursor: pointer;
+}
