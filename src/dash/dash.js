@@ -171,13 +171,22 @@ class dash extends Component {
 <div class="slide1-secB">
 
 <div class="p-back"></div>
-<h3 class="cut-topmargin-2">A N A L Y T I C S</h3>
-  <img class="l-chart" src={chart1} />
-  <h3 class="cut-topmargin-3">Opportunity (Monthly) &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <font class="c-grey">[View All]</font> </h3>
+<h3 class="cut-topmargin-2">P &nbsp; O &nbsp; R &nbsp; T &nbsp; A &nbsp; L</h3>
+  <div class="portal-14">Change<br />Settings</div>
+  <div class="portal-14">Current<br />Payouts</div>
   <div class="chart2-house">
-  <img class="l-chart-2 " src={chart2} />
+  <div class="chart2-hold">
+  <div class="chart2-left"> Amazon</div><div class="chart2-right">$7503.67</div>
+  <div class="chart2-left"> Tesla</div><div class="chart2-right">$3226.48</div>
+  <div class="chart2-left"> Uber</div><div class="chart2-right">$4567.27</div>
+  <div class="chart2-left"> Airbnb</div><div class="chart2-right">$8438.87</div>
+  <div class="chart2-left"> Apple</div><div class="chart2-right">$3974.64</div>
+  <div class="chart2-left"> Ivypro</div><div class="chart2-right">$9344.37</div>
+  <div class="chart2-left"> Google</div><div class="chart2-right">$4940.67</div>
+  <div class="chart2-left"> Facebook</div><div class="chart2-right">$9474.69</div>
+</div>
   </div>
-
+<h3 class="cut-topmargin-3">Avg. Monthly Payout&nbsp;<font class="title-bit">&nbsp;/bit</font></h3>
 </div>
 
 
@@ -219,7 +228,15 @@ class dash extends Component {
                </div>
 
                <div class="main-case">
-               <div class="relative"><div class="fixed"><div class="jump"><div class="j-obj"></div><div class="j-obj-arrow"></div><div class="j-obj-arrow2"></div></div></div></div>
+
+               <div class="relative"><div class="fixed"><div class="jump"><div class="j-obj">
+               <div class="j-obj-content-1">Your Payout</div><div class="j-obj-content-2">3256.78 <font class="month-obj2">/Month/bit</font></div>
+               <hr />
+               <div class="obj-click-box">Click</div>
+               <div class="obj-click-sam"></div>
+               <div class="obj-viewc-box">View Chart</div><div class="obj-viewc-box2">Buy Now</div>
+               </div><div class="j-obj-arrow"></div><div class="j-obj-arrow2"></div></div></div></div>
+
                <div class="main-block">
                <div class="block-img"><img class="logo logo1" src={amazon} /></div>
                <div class="block-stats"><div class="bl-com">Amazon.com</div> <br/>
@@ -227,46 +244,239 @@ class dash extends Component {
                </div>
 
                <div class="main-case">
+
+
+               <div class="relative"><div class="fixed"><div class="jump"><div class="j-obj">
+               <div class="j-obj-content-1">Your Payout</div><div class="j-obj-content-2">3256.78 <font class="month-obj2">/Month/bit</font></div>
+               <hr />
+               <div class="obj-click-box">Click</div>
+               <div class="obj-click-sam"></div>
+               <div class="obj-viewc-box">View Chart</div><div class="obj-viewc-box2">Buy Now</div>
+               </div><div class="j-obj-arrow"></div><div class="j-obj-arrow2"></div></div></div></div>
+
+
                <div class="main-block"><div class="block-img"><img class="logo" src={tesla} /></div>
                <div class="block-stats"><div class="bl-com">Tesla</div> <br/>
                <div class="bl-yld"> Y: 11B</div><div class="bl-pri">$: <font class="l-teal">12k</font>/bit</div></div></div>
                </div>
 
                <div class="main-case">
+
+                                <div class="relative"><div class="fixed"><div class="jump"><div class="j-obj">
+                                <div class="j-obj-content-1">Your Payout</div><div class="j-obj-content-2">3256.78 <font class="month-obj2">/Month/bit</font></div>
+                                <hr />
+                                <div class="obj-click-box">Click</div>
+                                <div class="obj-click-sam"></div>
+                                <div class="obj-viewc-box">View Chart</div><div class="obj-viewc-box2">Buy Now</div>
+                                </div><div class="j-obj-arrow"></div><div class="j-obj-arrow2"></div></div></div></div>
+
                <div class="main-block"><div class="block-img"><img class="logo" src={uber} /></div>
                <div class="block-stats"><div class="bl-com">Uber</div> <br/>
                <div class="bl-yld"> Y: 6.5B</div><div class="bl-pri">$: <font class="l-teal">4.2k</font>/bit</div></div></div>
                </div>
 
                <div class="main-case">
+
+                                <div class="relative"><div class="fixed"><div class="jump"><div class="j-obj">
+                                <div class="j-obj-content-1">Your Payout</div><div class="j-obj-content-2">3256.78 <font class="month-obj2">/Month/bit</font></div>
+                                <hr />
+                                <div class="obj-click-box">Click</div>
+                                <div class="obj-click-sam"></div>
+                                <div class="obj-viewc-box">View Chart</div><div class="obj-viewc-box2">Buy Now</div>
+                                </div><div class="j-obj-arrow"></div><div class="j-obj-arrow2"></div></div></div></div>
+
                <div class="main-block"><div class="block-img"><img class="logo" src={airbnb} /></div>
                <div class="block-stats"><div class="bl-com">Airbnb</div> <br/>
                <div class="bl-yld"> Y: 2.6B</div><div class="bl-pri">$: <font class="l-teal">1.2k</font>/bit</div></div></div>
                </div>
 
                <div class="main-case">
+
+                                <div class="relative"><div class="fixed"><div class="jump"><div class="j-obj">
+                                <div class="j-obj-content-1">Your Payout</div><div class="j-obj-content-2">3256.78 <font class="month-obj2">/Month/bit</font></div>
+                                <hr />
+                                <div class="obj-click-box">Click</div>
+                                <div class="obj-click-sam"></div>
+                                <div class="obj-viewc-box">View Chart</div><div class="obj-viewc-box2">Buy Now</div>
+                                </div><div class="j-obj-arrow"></div><div class="j-obj-arrow2"></div></div></div></div>
+
                <div class="main-block"><div class="block-img"><img class="logo logo2" src={apple} /></div>
                <div class="block-stats"><div class="bl-com">Apple Inc.</div> <br/>
                <div class="bl-yld"> Y: 229B</div><div class="bl-pri">$: <font class="l-teal">235k</font>/bit</div></div></div>
                </div>
 
                <div class="main-case">
+
+                                <div class="relative"><div class="fixed"><div class="jump"><div class="j-obj">
+                                <div class="j-obj-content-1">Your Payout</div><div class="j-obj-content-2">3256.78 <font class="month-obj2">/Month/bit</font></div>
+                                <hr />
+                                <div class="obj-click-box">Click</div>
+                                <div class="obj-click-sam"></div>
+                                <div class="obj-viewc-box">View Chart</div><div class="obj-viewc-box2">Buy Now</div>
+                                </div><div class="j-obj-arrow"></div><div class="j-obj-arrow2"></div></div></div></div>
+
                <div class="main-block"><div class="block-img"><img class="logo" src={ivyprot} /></div>
                <div class="block-stats"><div class="bl-com">Ivypro Inc.</div> <br/>
                <div class="bl-yld"> Y: 28M</div><div class="bl-pri">$: <font class="l-teal">2.5k</font>/bit</div></div></div>
                </div>
 
                <div class="main-case">
+
+                                <div class="relative"><div class="fixed"><div class="jump"><div class="j-obj">
+                                <div class="j-obj-content-1">Your Payout</div><div class="j-obj-content-2">3256.78 <font class="month-obj2">/Month/bit</font></div>
+                                <hr />
+                                <div class="obj-click-box">Click</div>
+                                <div class="obj-click-sam"></div>
+                                <div class="obj-viewc-box">View Chart</div><div class="obj-viewc-box2">Buy Now</div>
+                                </div><div class="j-obj-arrow"></div><div class="j-obj-arrow2"></div></div></div></div>
+
                <div class="main-block"><div class="block-img"><img class="logo" src={google} /></div>
                <div class="block-stats"><div class="bl-com">Google</div> <br/>
                <div class="bl-yld"> Y: 32B</div><div class="bl-pri">$: <font class="l-teal">10k</font>/Mbit</div></div></div>
                  </div>
 
                <div class="main-case">
+
+                                <div class="relative"><div class="fixed"><div class="jump"><div class="j-obj">
+                                <div class="j-obj-content-1">Your Payout</div><div class="j-obj-content-2">3256.78 <font class="month-obj2">/Month/bit</font></div>
+                                <hr />
+                                <div class="obj-click-box">Click</div>
+                                <div class="obj-click-sam"></div>
+                                <div class="obj-viewc-box">View Chart</div><div class="obj-viewc-box2">Buy Now</div>
+                                </div><div class="j-obj-arrow"></div><div class="j-obj-arrow2"></div></div></div></div>
+
                <div class="main-block"><div class="block-img"><img class="logo logo3" src={facebook} /></div>
                <div class="block-stats"><div class="bl-com">Facebook</div> <br/>
                <div class="bl-yld"> Y: 27B</div><div class="bl-pri">$: <font class="l-teal">24k</font>/bit</div></div></div>
                </div>
+
+
+{/* here */}
+
+
+               <div class="main-case">
+
+                                <div class="relative"><div class="fixed"><div class="jump"><div class="j-obj">
+                                <div class="j-obj-content-1">Your Payout</div><div class="j-obj-content-2">3256.78 <font class="month-obj2">/Month/bit</font></div>
+                                <hr />
+                                <div class="obj-click-box">Click</div>
+                                <div class="obj-click-sam"></div>
+                                <div class="obj-viewc-box">View Chart</div><div class="obj-viewc-box2">Buy Now</div>
+                                </div><div class="j-obj-arrow"></div><div class="j-obj-arrow2"></div></div></div></div>
+
+               <div class="main-block"><div class="block-img"><img class="logo logo3" src={facebook} /></div>
+               <div class="block-stats"><div class="bl-com">Facebook</div> <br/>
+               <div class="bl-yld"> Y: 27B</div><div class="bl-pri">$: <font class="l-teal">24k</font>/bit</div></div></div>
+               </div>
+
+               <div class="main-case">
+
+                                <div class="relative"><div class="fixed"><div class="jump"><div class="j-obj">
+                                <div class="j-obj-content-1">Your Payout</div><div class="j-obj-content-2">3256.78 <font class="month-obj2">/Month/bit</font></div>
+                                <hr />
+                                <div class="obj-click-box">Click</div>
+                                <div class="obj-click-sam"></div>
+                                <div class="obj-viewc-box">View Chart</div><div class="obj-viewc-box2">Buy Now</div>
+                                </div><div class="j-obj-arrow"></div><div class="j-obj-arrow2"></div></div></div></div>
+
+               <div class="main-block"><div class="block-img"><img class="logo logo3" src={facebook} /></div>
+               <div class="block-stats"><div class="bl-com">Facebook</div> <br/>
+               <div class="bl-yld"> Y: 27B</div><div class="bl-pri">$: <font class="l-teal">24k</font>/bit</div></div></div>
+               </div>
+
+               <div class="main-case">
+
+                                <div class="relative"><div class="fixed"><div class="jump"><div class="j-obj">
+                                <div class="j-obj-content-1">Your Payout</div><div class="j-obj-content-2">3256.78 <font class="month-obj2">/Month/bit</font></div>
+                                <hr />
+                                <div class="obj-click-box">Click</div>
+                                <div class="obj-click-sam"></div>
+                                <div class="obj-viewc-box">View Chart</div><div class="obj-viewc-box2">Buy Now</div>
+                                </div><div class="j-obj-arrow"></div><div class="j-obj-arrow2"></div></div></div></div>
+
+               <div class="main-block"><div class="block-img"><img class="logo logo3" src={facebook} /></div>
+               <div class="block-stats"><div class="bl-com">Facebook</div> <br/>
+               <div class="bl-yld"> Y: 27B</div><div class="bl-pri">$: <font class="l-teal">24k</font>/bit</div></div></div>
+               </div>
+
+               <div class="main-case">
+
+                                <div class="relative"><div class="fixed"><div class="jump"><div class="j-obj">
+                                <div class="j-obj-content-1">Your Payout</div><div class="j-obj-content-2">3256.78 <font class="month-obj2">/Month/bit</font></div>
+                                <hr />
+                                <div class="obj-click-box">Click</div>
+                                <div class="obj-click-sam"></div>
+                                <div class="obj-viewc-box">View Chart</div><div class="obj-viewc-box2">Buy Now</div>
+                                </div><div class="j-obj-arrow"></div><div class="j-obj-arrow2"></div></div></div></div>
+
+               <div class="main-block"><div class="block-img"><img class="logo logo3" src={facebook} /></div>
+               <div class="block-stats"><div class="bl-com">Facebook</div> <br/>
+               <div class="bl-yld"> Y: 27B</div><div class="bl-pri">$: <font class="l-teal">24k</font>/bit</div></div></div>
+               </div>
+
+               <div class="main-case">
+
+                                <div class="relative"><div class="fixed"><div class="jump"><div class="j-obj">
+                                <div class="j-obj-content-1">Your Payout</div><div class="j-obj-content-2">3256.78 <font class="month-obj2">/Month/bit</font></div>
+                                <hr />
+                                <div class="obj-click-box">Click</div>
+                                <div class="obj-click-sam"></div>
+                                <div class="obj-viewc-box">View Chart</div><div class="obj-viewc-box2">Buy Now</div>
+                                </div><div class="j-obj-arrow"></div><div class="j-obj-arrow2"></div></div></div></div>
+
+               <div class="main-block"><div class="block-img"><img class="logo logo3" src={facebook} /></div>
+               <div class="block-stats"><div class="bl-com">Facebook</div> <br/>
+               <div class="bl-yld"> Y: 27B</div><div class="bl-pri">$: <font class="l-teal">24k</font>/bit</div></div></div>
+               </div>
+
+               <div class="main-case">
+
+                                <div class="relative"><div class="fixed"><div class="jump"><div class="j-obj">
+                                <div class="j-obj-content-1">Your Payout</div><div class="j-obj-content-2">3256.78 <font class="month-obj2">/Month/bit</font></div>
+                                <hr />
+                                <div class="obj-click-box">Click</div>
+                                <div class="obj-click-sam"></div>
+                                <div class="obj-viewc-box">View Chart</div><div class="obj-viewc-box2">Buy Now</div>
+                                </div><div class="j-obj-arrow"></div><div class="j-obj-arrow2"></div></div></div></div>
+
+               <div class="main-block"><div class="block-img"><img class="logo logo3" src={facebook} /></div>
+               <div class="block-stats"><div class="bl-com">Facebook</div> <br/>
+               <div class="bl-yld"> Y: 27B</div><div class="bl-pri">$: <font class="l-teal">24k</font>/bit</div></div></div>
+               </div>
+
+               <div class="main-case">
+
+                                <div class="relative"><div class="fixed"><div class="jump"><div class="j-obj">
+                                <div class="j-obj-content-1">Your Payout</div><div class="j-obj-content-2">3256.78 <font class="month-obj2">/Month/bit</font></div>
+                                <hr />
+                                <div class="obj-click-box">Click</div>
+                                <div class="obj-click-sam"></div>
+                                <div class="obj-viewc-box">View Chart</div><div class="obj-viewc-box2">Buy Now</div>
+                                </div><div class="j-obj-arrow"></div><div class="j-obj-arrow2"></div></div></div></div>
+
+               <div class="main-block"><div class="block-img"><img class="logo logo3" src={facebook} /></div>
+               <div class="block-stats"><div class="bl-com">Facebook</div> <br/>
+               <div class="bl-yld"> Y: 27B</div><div class="bl-pri">$: <font class="l-teal">24k</font>/bit</div></div></div>
+               </div>
+
+               <div class="main-case">
+
+                                <div class="relative"><div class="fixed"><div class="jump"><div class="j-obj">
+                                <div class="j-obj-content-1">Your Payout</div><div class="j-obj-content-2">3256.78 <font class="month-obj2">/Month/bit</font></div>
+                                <hr />
+                                <div class="obj-click-box">Click</div>
+                                <div class="obj-click-sam"></div>
+                                <div class="obj-viewc-box">View Chart</div><div class="obj-viewc-box2">Buy Now</div>
+                                </div><div class="j-obj-arrow"></div><div class="j-obj-arrow2"></div></div></div></div>
+
+               <div class="main-block"><div class="block-img"><img class="logo logo3" src={facebook} /></div>
+               <div class="block-stats"><div class="bl-com">Facebook</div> <br/>
+               <div class="bl-yld"> Y: 27B</div><div class="bl-pri">$: <font class="l-teal">24k</font>/bit</div></div></div>
+               </div>
+
+
+
+
 
              </div>
 

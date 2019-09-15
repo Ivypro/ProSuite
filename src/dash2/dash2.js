@@ -82,6 +82,14 @@ class dash2 extends Component {
           </div>
           </div>
 
+          <div class="right-panel">
+            <div class="up-box">
+<div class="up-left-box">Up left box</div>
+<div class="up-right-box">Up right box</div>
+            </div>
+
+          </div>
+
 </div>
 </div>
 

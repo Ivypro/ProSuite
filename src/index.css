@@ -32,15 +32,6 @@ h3 {
   text-align: center;
 }
 
-.cut-topmargin-3 {
-  position: absolute;
-  top: 150px;
-  left: 31px;
-  margin-top: 26px;
-  /* left: 8px; */
-  font-size: .8rem;
-}
-
 .align-leftmargin {
   margin-left: 7px;
 }

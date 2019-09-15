@@ -24,12 +24,6 @@ class topbar extends Component {
       document.getElementById('m-liner').setAttribute("style", "top: 0px;");
       setTimeout(function(){
         document.getElementById('m-main').setAttribute("style", "display: block;");
-        // setTimeout(function(){
-        //   document.getElementById('bar-icon').setAttribute("style", "opacity: 0;");
-        //   setTimeout(function(){
-        //   document.getElementById('bar-brand').setAttribute("style", "display: block;");
-        //   }, 300);
-        // }, 300);
       }, 450);
       }, 500);
       setTimeout(function(){
@@ -133,7 +127,13 @@ class topbar extends Component {
        }
 
 showMenu() {
-$('.box-menu').toggleClass('hidden');
+// $('.box-menu').toggleClass('hidden');
+// Vanilla
+var x = document.getElementsByClassName("box-menu");
+var i; for (i = 0; i < x.length; i++)
+{ x[i].classList.toggle("hidden"); };
+
+
 }
 
 

@@ -83,34 +83,81 @@ transition: .5s;
               0 4px 10px 0 rgba(0,0,0,0.14);
 }
 
-.l-chart {
-  position: absolute;
-  top: 50px;
-  left: 6px;
-  width: 260px;
+.portal-14 {
+  display: inline-block;
+  width: 44%;
+  height: 72px;
+  font-weight: bold;
+  text-align: center;
+  padding-top: 27px;
+  margin: 5px;
+  margin-top: 10px;
+  border-radius: 10px;
+  border: solid 2px rgba(250,250,250,0.4);
+  background-color: rgb(55,55,55);
+  cursor: pointer;
+}
+.portal-14:hover {
+background-color: rgb(75,75,75);
 }
 
-.l-chart-2 {
+.cut-topmargin-3 {
   position: absolute;
-  left: 0px;
-  width: 250px;
+  top: 152px;
+  left: 25px;
+  height: 19px;
+  padding-left: 15px;
+  border: solid 2px rgba(250,250,250,0.2);
+  border-bottom: solid 0px;
+  padding-top: 3px;
+  width: 150px;
+  border-radius: 10px 10px 0px 0px;
+  margin-top: 26px;
+  /* left: 8px; */
+  font-size: .8rem;
+  background-color: rgb(55,55,55);
 }
 
 .chart2-house {
   position: absolute;
-    top: 204px;
+  padding-top: 15px;
+  padding-left: 15px;
+    top: 200px;
     left: 11px;
   background-color: rgb(55,55,55);
   border: solid 2px rgba(250,250,250,0.2);
   border-radius: 5px;
-  width: 254px;
-  height: 300px;
+  width: 239px;
+  height: 290px;
+  font-size: 1.2rem;
 }
 
-.c-grey {
-  color: lightgrey;
-  font-size: .7rem;
-  cursor: pointer;
+.chart2-hold {
+  height: 280px;
+  overflow: scroll;
+}
+
+.chart2-left {
+  display: inline-block;
+  text-align: right;
+  width: 100px;
+  overflow: hidden;
+}
+
+.chart2-right {
+  display: inline-block;
+  position: relative;
+  text-align: left;
+  margin-left: 30px;
+  width: 95px;
+  overflow: hidden;
+  color: teal;
+  font-weight: bold;
+}
+
+.title-bit {
+  color: darkgrey;
+  font-size: .6rem;
 }
 
 @import url('https://fonts.googleapis.com/css?family=Roboto:100,300,500');
@@ -723,14 +770,14 @@ width: 73%;
 .jump {
   position: relative;
   top: -25px;
-  height: 400px;
+  height: 185px;
   width: 250px;
   left: -250px;
   border-radius: 6px;
   display: none;
   cursor: pointer;
      animation: jump-in .1s;
-     opacity: 0.8;
+     opacity: 0.97;
      pointer-events: none;
 }
 @keyframes jump-in {
@@ -743,8 +790,85 @@ width: 73%;
   width: calc(100% - 30px);
   height: 100%;
   border: solid 2px grey;
+  font-family: roboto;
   background-color: whitesmoke;
 }
+
+.j-obj-content-1 {
+  margin-top: 10px;
+  margin-left: 15px;
+  font-size: 1.45rem;
+  border-radius: 3px;
+  width: 190px;
+  height: 30px;
+  color: whitesmoke;
+  text-align: center;
+  background-color: grey;
+}
+
+.j-obj-content-2 {
+    margin-top: 10px;
+    margin-left: 25px;
+  font-size: 1.5rem;
+  color: teal;
+  font-weight: bold;
+}
+
+.month-obj2 {
+  font-size: .9rem;
+  color: rgb(75,75,75);
+}
+
+.obj-click-box {
+  position: relative;
+  top: 4px;
+  margin-left: 18px;
+  margin-top: 10px;
+  /* background-color: rgb(100,100,100); */
+  width: 43px;
+  text-align: center;
+  color: black;
+  border-radius: 2px;
+  font-size: .8rem;
+}
+
+.obj-click-sam {
+  position: absolute;
+  top: 123px;
+  left: 19px;
+  width: 45px;
+  height: 45px;
+  border-radius: 10px;
+  background-color: grey;
+}
+
+.obj-viewc-box {
+  position: absolute;
+  top: 100px;
+  left: 76px;
+  padding: 20px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-size: 1.2rem;
+  color: whitesmoke;
+  border-radius: 2px;
+  background-color: rgb(70,90,50);
+}
+
+.obj-viewc-box2 {
+  position: absolute;
+  top: 140px;
+  left: 76px;
+text-align: center;
+  width: 133px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-size: 1.2rem;
+  color: whitesmoke;
+    border-radius: 2px;
+  background-color: rgb(20,80,100);
+}
+
 
 .j-obj-arrow {
   position: absolute;
@@ -767,6 +891,10 @@ width: 73%;
   border-bottom: 15px solid transparent;
   border-left: 20px solid whitesmoke;
 
+}
+
+.case-relative {
+  position: relative;
 }
 
 .main-case {

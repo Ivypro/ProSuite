@@ -211,3 +211,22 @@ width: 284px;
   font-weight: 400;
   margin-right: 35px;
 }
+
+.up-box {
+  background-color: blue;
+  width: 98%;
+  height: 200px;
+  margin: 0 auto;
+  margin-top: 10px;
+}
+
+.up-left-box {
+  display: inline-block;
+  background-color: red;
+  width: 50%;
+}
+.up-right-box {
+  display: inline-block;
+  background-color: yellow;
+  width: 50%;
+}
